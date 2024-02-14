@@ -1,0 +1,263 @@
+/* Our App */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f6f6fa;
+}
+
+.app-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Sidebar styles */
+
+.sidebar-section {
+    background-color: #dfeeff;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.sidebar-image {
+    margin-top: 40px;
+}
+
+.contacts-container {
+    padding-left: 40px;
+}
+
+.contacts-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+    margin-bottom: 12px;
+}
+
+.contacts-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+}
+
+.fa-solid, .fa-envelope {
+    margin-right: 5px;
+}
+
+.fa-solid, .fa-envelope {
+    margin-right: 5px;
+}
+
+.contacts-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.contacts-email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4489ff;
+    margin-left: 10px;
+}
+
+.tech-skills-section {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.tech-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.tech-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+    margin-top: -10px;
+    margin-left: -11px;
+}
+
+.soft-skills-section {
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.soft-skills-header {
+    font-weight: 700;
+    font-size: 22px;
+    color: #161d2a;
+}
+
+.soft-skills-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #161d2a;
+    margin-top: -10px;
+    margin-left: -11px;
+}
+
+/* Main content styles */
+
+.right-side-container {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 180px;
+}
+
+.about-me-profession {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    font-style: normal;
+    line-height: normal;
+}
+
+.about-me-name {
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+    margin-top: 8px;
+    border: 3px solid #6096ff;
+    border-radius: 15px;
+    width: 425px;
+    padding: 15px;
+}
+
+.about-me-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-top: -15px;
+}
+
+.projects-section {
+    margin-top: 40px;
+}
+
+.projects-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.projects-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.project-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #595959;
+}
+
+.project-info {
+    font-weight: 400;
+}
+
+.work-experience-section {
+    margin-top: 40px;
+}
+
+.work-experience-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.company-info {
+    color: #6096ff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.company-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: -10px;
+}
+
+.company-elements-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #595959;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.company-container {
+    margin-top: -10px;
+}
+
+.education-header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.education-school {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6096ff;
+    margin-bottom: 8px;
+}
+
+.education-domain {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.education-time {
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+    margin-top: 8px;
+}
+
+.education-section {
+    margin-top: 40px;
+}
+
+.education-container {
+    margin-top: -10px;
+}
+
+/* General Styling*/
+a {
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
+    background-color: #6096ff;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
