@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stan Catalin - Resume</title>
     <link rel="icon" type="image/x-icon" href="images/profile-image.jpg">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/440ee9a54c.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="document.body.style.opacity='1'">
     <!-- Our App -->
     <div class = "app-wrapper">
         <!-- Right side container -->
@@ -27,23 +27,53 @@
                 </p>
             </div>
             <!-- Projects section -->
-            <div class = "projects-section">
+            <div class = "projects-section-web">
                 <h3 class = "projects-header"><i class="fa-solid fa-code"></i>Projects</h3>
                 <ol class = "projects-list">
                     <li>
                         <a href="https://github.com/stan4695/Web-Database-Interface" class = "project-name">https://github.com/stan4695/Web-Database-Interface</a>
-                        <span class = "project-info">.........................</span>
-                        <span class = "project-info">[ HTML5, Java, CSS3 ]</span>
+                        <span class = "project-info">.............</span>
+                        <span class = "project-info">[ HTML5, Java, CSS3, MySQL ]</span>
                     </li>
                     <li>
                         <a href="https://github.com/stan4695/CRUD-App" class = "project-name">https://github.com/stan4695/CRUD-App</a>
-                        <span class = "project-info">.....................................................................</span>
-                        <span class = "project-info">[ JavaFX, FXML ]</span>
+                        <span class = "project-info">.........................................................</span>
+                        <span class = "project-info">[ JavaFX, FXML, MySQL ]</span>
                     </li>
                     <li>
                         <a href="https://github.com/stan4695/ESP32_Bluetooth_Wi-Fi_Communication" class = "project-name">https://github.com/stan4695/ESP32_Bluetooth_Wi-Fi_Communication</a>
-                        <span class = "project-info">.....................</span>
+                        <span class = "project-info">............................</span>
                         <span class = "project-info">[ C++ ]</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/stan4695/resume-website" class = "project-name">https://github.com/stan4695/resume-website</a>
+                        <span class = "project-info">.................................................................</span>
+                        <span class = "project-info">[ HTML5, CSS3 ]</span>
+                    </li>
+                </ol>    
+            </div>
+            <div class = "projects-section-mobile">
+                <h3 class = "projects-header"><i class="fa-solid fa-code"></i>Projects</h3>
+                <ol class = "projects-list">
+                    <li>
+                        <a href="https://github.com/stan4695/Web-Database-Interface" class = "project-name">Web-Database-Interface</a>
+                        <br/>
+                        <span class = "project-info">[ HTML5, Java, CSS3, MySQL ]</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/stan4695/CRUD-App" class = "project-name">CRUD-App</a>
+                        <br/>
+                        <span class = "project-info">[ JavaFX, FXML, MySQL ]</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/stan4695/ESP32_Bluetooth_Wi-Fi_Communication" class = "project-name">ESP32_Bluetooth_Wi-Fi_Communication</a>
+                        <br/>
+                        <span class = "project-info">[ C++ ]</span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/stan4695/resume-website" class = "project-name">resume-website</a>
+                        <br/>
+                        <span class = "project-info">[ HTML5, CSS3 ]</span>
                     </li>
                 </ol>    
             </div>
@@ -105,7 +135,7 @@
                 </div>
                 <div class = "education-container">
                     <h4 class = "education-school">Telecom Academy</h4>
-                    <h5 class = "education-domain">CCNA1 - Introduction to Networks</h5>
+                    <h5 class = "education-domain"><a href="media/StanCatalin-Ionel-CCNA 1 - 7 Noiem-certificate.pdf">CCNA1 - Introduction to Networks</a></h5>
                     <p class = "education-time">November 2023 - January 2024   |  Bucharest, Romania</p>
                 </div>
                 <div class = "education-container">
